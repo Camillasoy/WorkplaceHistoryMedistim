@@ -1,0 +1,52 @@
+{
+  "timestamp": 1686296900,
+  "media": [
+    
+  ],
+  "label_values": [
+    {
+      "ent_field_name": "Condition",
+      "label": "Condition",
+      "dict": [
+        {
+          "ent_field_name": "Condition.key",
+          "label": "department",
+          "dict": [
+            {
+              "ent_field_name": "ConditionCondition.value.operator",
+              "label": "operator",
+              "value": "Is Any Of"
+            },
+            {
+              "ent_field_name": "ConditionCondition.value.values",
+              "label": "values",
+              "vec": [
+                {
+                  "ent_field_name": "Condition.value.values",
+                  "value": "R&D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ent_field_name": "NameRaw",
+      "label": "People set name",
+      "value": "groupie#set#3598469797042860#Sxx59Ff6DL"
+    },
+    {
+      "ent_field_name": "Purpose",
+      "label": "Purpose",
+      "value": "Groupie"
+    },
+    {
+      "ent_field_name": "UpdateTime",
+      "label": "Update time",
+      "timestamp_value": 1694612185
+    }
+  ],
+  "fbid": "1720759278353386",
+  "ent_name": "EntWorkProfileFieldsSet"
+}

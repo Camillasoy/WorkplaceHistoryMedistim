@@ -1,0 +1,277 @@
+[
+  {
+    "timestamp": 1722582707,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "UsesGoogleApps",
+        "label": "UsesGoogleApps",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithGoogle",
+        "label": "VerifiedDomainWithGoogle",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "UsesOffice365",
+        "label": "UsesOffice365",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithMicrosoft",
+        "label": "VerifiedDomainWithMicrosoft",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "UsesMicrosoftExchange",
+        "label": "UsesMicrosoftExchange",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "HasTriedSlack",
+        "label": "HasSlackInstance",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "HasTriedQuip",
+        "label": "HasQuipInstance",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "HasDmarcConfig",
+        "label": "HasDmarcConfig",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "Domain",
+        "label": "Domain",
+        "value": "medistim.com"
+      }
+    ],
+    "fbid": "26132250909756147",
+    "ent_name": "EntWorkEmailDomainSasInfo"
+  },
+  {
+    "timestamp": 1725894448,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "UsesGoogleApps",
+        "label": "UsesGoogleApps",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithGoogle",
+        "label": "VerifiedDomainWithGoogle",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "UsesOffice365",
+        "label": "UsesOffice365",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithMicrosoft",
+        "label": "VerifiedDomainWithMicrosoft",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "UsesMicrosoftExchange",
+        "label": "UsesMicrosoftExchange",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "HasTriedSlack",
+        "label": "HasSlackInstance",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "HasTriedQuip",
+        "label": "HasQuipInstance",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "HasDmarcConfig",
+        "label": "HasDmarcConfig",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "Domain",
+        "label": "Domain",
+        "value": "medistimusa.com"
+      }
+    ],
+    "fbid": "8248966551829977",
+    "ent_name": "EntWorkEmailDomainSasInfo"
+  },
+  {
+    "timestamp": 1599045526,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "UsesGoogleApps",
+        "label": "UsesGoogleApps",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithGoogle",
+        "label": "VerifiedDomainWithGoogle",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "UsesOffice365",
+        "label": "UsesOffice365",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithMicrosoft",
+        "label": "VerifiedDomainWithMicrosoft",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "UsesMicrosoftExchange",
+        "label": "UsesMicrosoftExchange",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "HasTriedSlack",
+        "label": "HasSlackInstance",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "HasTriedQuip",
+        "label": "HasQuipInstance",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "HasDmarcConfig",
+        "label": "HasDmarcConfig",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "Domain",
+        "label": "Domain",
+        "value": "medi-stim.de"
+      }
+    ],
+    "fbid": "1251626384876759",
+    "ent_name": "EntWorkEmailDomainSasInfo"
+  },
+  {
+    "timestamp": 1601248452,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "UsesGoogleApps",
+        "label": "UsesGoogleApps",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithGoogle",
+        "label": "VerifiedDomainWithGoogle",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "UsesOffice365",
+        "label": "UsesOffice365",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithMicrosoft",
+        "label": "VerifiedDomainWithMicrosoft",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "UsesMicrosoftExchange",
+        "label": "UsesMicrosoftExchange",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "HasTriedSlack",
+        "label": "HasSlackInstance",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "HasTriedQuip",
+        "label": "HasQuipInstance",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "HasDmarcConfig",
+        "label": "HasDmarcConfig",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "Domain",
+        "label": "Domain",
+        "value": "genesismedicalgroup.net"
+      }
+    ],
+    "fbid": "4452410974800551",
+    "ent_name": "EntWorkEmailDomainSasInfo"
+  },
+  {
+    "timestamp": 1565191168,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "UsesGoogleApps",
+        "label": "UsesGoogleApps",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithGoogle",
+        "label": "VerifiedDomainWithGoogle",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "UsesOffice365",
+        "label": "UsesOffice365",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "VerifiedDomainWithMicrosoft",
+        "label": "VerifiedDomainWithMicrosoft",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "UsesMicrosoftExchange",
+        "label": "UsesMicrosoftExchange",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "HasTriedSlack",
+        "label": "HasSlackInstance",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "HasTriedQuip",
+        "label": "HasQuipInstance",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "HasDmarcConfig",
+        "label": "HasDmarcConfig",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "Domain",
+        "label": "Domain",
+        "value": "drikotmedical.com"
+      }
+    ],
+    "fbid": "2078005815620993",
+    "ent_name": "EntWorkEmailDomainSasInfo"
+  }
+]

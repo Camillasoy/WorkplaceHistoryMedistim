@@ -1,0 +1,102 @@
+{
+  "media": [
+    
+  ],
+  "label_values": [
+    {
+      "ent_field_name": "Description",
+      "label": "Install description",
+      "value": "This is the Workplace Safety Center bot for Medistim"
+    },
+    {
+      "ent_field_name": "CurrentCoverPhoto",
+      "label": "Cover photo",
+      "media": [
+        
+      ]
+    },
+    {
+      "ent_field_name": "InstallDataPermissions",
+      "label": "Permissions"
+    },
+    {
+      "ent_field_name": "InstallDataInstallType",
+      "label": "Install type"
+    },
+    {
+      "ent_field_name": "InstallDataAllowedGroups",
+      "label": "Allowed groups"
+    },
+    {
+      "ent_field_name": "InstallDataInstalledBy",
+      "label": "Installed by"
+    },
+    {
+      "ent_field_name": "InstallDataUnusedPermissionRemovalEnabled",
+      "label": "Unused permission removal enabled"
+    },
+    {
+      "ent_field_name": "InstallDataStatus",
+      "label": "Status"
+    },
+    {
+      "ent_field_name": "InstallDataAppID",
+      "label": "AppID"
+    },
+    {
+      "ent_field_name": "InstallDataEnabled",
+      "label": "Enabled"
+    },
+    {
+      "ent_field_name": "InstallDataDiscoverable",
+      "label": "Discoverable"
+    },
+    {
+      "ent_field_name": "InstallDataLastAPICall",
+      "label": "LastApiCall"
+    },
+    {
+      "ent_field_name": "InstallDataNumberRequestLast7Days",
+      "label": "NumberRequestLast7Days"
+    },
+    {
+      "ent_field_name": "InstallDataNLPSettings",
+      "label": "NLPSettings"
+    },
+    {
+      "ent_field_name": "InstallDataWebhooksSettings",
+      "label": "WebhooksSettings"
+    },
+    {
+      "ent_field_name": "InstallDataSecuritySettings",
+      "label": "SecuritySettings"
+    },
+    {
+      "ent_field_name": "InstallDataLinkPreviewSettings",
+      "label": "LinkPreviewSettings"
+    },
+    {
+      "ent_field_name": "ProfilePhoto",
+      "label": "Profile picture",
+      "media": [
+        {
+          "uri": "posts/media/Profilepictures_103340974385871/470590567660908.png",
+          "fbid_INTERNAL": 470590567660908,
+          "creation_timestamp": 1612208551,
+          "media_metadata": {
+            "photo_metadata": {
+              "exif_data": [
+                {
+                  "taken_timestamp": 1612209653
+                }
+              ]
+            }
+          },
+          "title": "Profile pictures"
+        }
+      ]
+    }
+  ],
+  "fbid": "103340847719217",
+  "ent_name": "EntWorkIntegrationCommunityPage"
+}

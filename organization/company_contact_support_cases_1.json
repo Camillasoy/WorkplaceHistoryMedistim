@@ -1,0 +1,1139 @@
+[
+  {
+    "timestamp": 1729018276,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "DataAccessAuthorized",
+        "label": "Data Access Authorized",
+        "value": "False",
+        "description": "Whether case creator has authorized data access"
+      },
+      {
+        "ent_field_name": "CaseExtraData",
+        "label": "Case extra data",
+        "dict": [
+          {
+            "label": "Request Type",
+            "value": "Adding Accounts"
+          },
+          {
+            "label": "Are you reporting an issue (unexpected behaviour)?",
+            "value": "Yes"
+          },
+          {
+            "label": "Setup",
+            "value": "Manual Creation"
+          },
+          {
+            "label": "Are you using",
+            "value": "Proxy"
+          },
+          {
+            "label": "Platform",
+            "value": "Web Browser"
+          },
+          {
+            "label": "Operating System",
+            "value": "Windows"
+          },
+          {
+            "label": "Start Date",
+            "value": "October 1, 2024 10:30 am (America/Los_Angeles)"
+          },
+          {
+            "label": "Screen recording, screenshots, affected files",
+            "value": "No, will upload at the Support's request"
+          },
+          {
+            "label": "Have you tested in Incognito mode?",
+            "value": "Yes, but can still reproduce the issue"
+          },
+          {
+            "label": "Browser Name and Version",
+            "value": "Windows "
+          },
+          {
+            "label": "Have you tested in another browser?",
+            "value": "Yes, and can still reproduce the issue"
+          },
+          {
+            "label": "Which other browsers have you tested?",
+            "value": "Safari"
+          },
+          {
+            "label": "Have you performed a network trace?",
+            "value": "No"
+          },
+          {
+            "label": "How many users are impacted?",
+            "value": "A few"
+          },
+          {
+            "label": "Bug Report(s) submitted by the affected users",
+            "value": "No, we'll submit those at the Support's request"
+          },
+          {
+            "label": "Emails or IDs of the Users who are not impacted",
+            "value": "amanda.holmes@medistimusa.com"
+          },
+          {
+            "label": "Emails or IDs of the Impacted Users",
+            "value": "sean.bobak@medistimusa.com"
+          }
+        ],
+        "description": "Each case type can have custom fields, these are their values specified by user"
+      },
+      {
+        "ent_field_name": "PermanentlyClosed",
+        "label": "Permanently closed",
+        "value": "True",
+        "description": "Cases can not be reopened 30 days after they were closed"
+      },
+      {
+        "ent_field_name": "Subscribers",
+        "label": "Subscribers",
+        "value": "100023631452522",
+        "description": "Admins subscribed to this case"
+      },
+      {
+        "ent_field_name": "Title",
+        "label": "Title",
+        "value": "Unable to create user accounts"
+      },
+      {
+        "ent_field_name": "Description",
+        "label": "Description",
+        "value": "Hello- I am unable to create a user account right now, it is telling me that the phone number is invalid. Is this because Workplace is deactivating?"
+      },
+      {
+        "ent_field_name": "CreatorID",
+        "label": "Creator ID",
+        "value": "100023631452522"
+      },
+      {
+        "ent_field_name": "Status",
+        "label": "Status",
+        "value": "Closed"
+      },
+      {
+        "ent_field_name": "CreationSource",
+        "label": "Creation Source",
+        "value": "Unknown"
+      },
+      {
+        "ent_field_name": "LastCommentedTime",
+        "label": "Last comment timestamp",
+        "timestamp_value": 1729373761
+      },
+      {
+        "ent_field_name": "ParentID",
+        "label": "ID of the parent case that is duplicated by this case, if one exists",
+        "value": "0"
+      },
+      {
+        "ent_field_name": "Priority",
+        "label": "Priority",
+        "value": "High"
+      },
+      {
+        "ent_field_name": "LastModifiedTime",
+        "label": "Update time",
+        "timestamp_value": 1730425695
+      },
+      {
+        "ent_field_name": "UserConsentAvailable",
+        "label": "User consented to survey",
+        "value": "False",
+        "description": "If user opted in to receive survey"
+      },
+      {
+        "dict": [
+          
+        ],
+        "title": "Case attachments"
+      },
+      {
+        "ent_field_name": "CaseTypeDisplayName",
+        "label": "Case type name",
+        "value": "User Management",
+        "description": "Case type name"
+      },
+      {
+        "ent_field_name": "CaseTypeDescription",
+        "label": "Case type description",
+        "value": "Get help creating, editing, or removing employee accounts. ",
+        "description": "Case type description"
+      },
+      {
+        "dict": [
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "I was able to add the user now"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "value": "100023631452522",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "value": "Closed",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "1570119266917734"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1729373762
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi,  \n\nIt\u00e2\u0080\u0099s been a while since we have heard from you, but we are still anticipating a response on this ticket. We\u00e2\u0080\u0099ll assume it\u00e2\u0080\u0099s safe to mark as resolved If we don\u00e2\u0080\u0099t hear back from you in two calendar days. \n\nIf you\u00e2\u0080\u0099d like more time to respond, please let us know and we\u00e2\u0080\u0099ll keep the ticket open for you\n\nRegards, \nMeta for Work support"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "1570067460256248"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1729366519
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi, \n\nWe're following up to see if you've received our last message. If you have any questions about the next steps, please don't hesitate to let us know.  \n\nRegards, \nMeta for Work support"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "1568677220395272"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1729193684
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi Amanda,\n\nThank you for contacting Meta for Work support.\n\nPlease share a screen/video recording demonstrating the issue from beginning to end, including any errors that you may encounter. It would be immensely helpful for our troubleshooting purposes. \n\nRegards,\n\nTom - Meta for Work support"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "value": "Needs More Info",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "1567247443871583"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1729020538
+              }
+            ],
+            "title": ""
+          }
+        ],
+        "title": "Case updates"
+      }
+    ],
+    "fbid": "1567229197206741",
+    "ent_name": "EntWorkplaceExternalCase"
+  },
+  {
+    "timestamp": 1605538850,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "DataAccessAuthorized",
+        "label": "Data Access Authorized",
+        "value": "False",
+        "description": "Whether case creator has authorized data access"
+      },
+      {
+        "ent_field_name": "CaseExtraData",
+        "label": "Case extra data",
+        "dict": [
+          {
+            "label": "Data access authorisation",
+            "value": "Yes, I authorize Facebook to access data related to the account if deemed necessary by Facebook to resolve the ticket"
+          }
+        ],
+        "description": "Each case type can have custom fields, these are their values specified by user"
+      },
+      {
+        "ent_field_name": "PermanentlyClosed",
+        "label": "Permanently closed",
+        "value": "False",
+        "description": "Cases can not be reopened 30 days after they were closed"
+      },
+      {
+        "ent_field_name": "Subscribers",
+        "label": "Subscribers",
+        "value": "100013348891711",
+        "description": "Admins subscribed to this case"
+      },
+      {
+        "ent_field_name": "Title",
+        "label": "Title",
+        "value": "Workplace rooms"
+      },
+      {
+        "ent_field_name": "Description",
+        "label": "Description",
+        "value": "I am wondering when the Rooms functionality will be available in Norway. As far as I can tell we do not have this feature yet."
+      },
+      {
+        "ent_field_name": "CreatorID",
+        "label": "Creator ID",
+        "value": "100013348891711"
+      },
+      {
+        "ent_field_name": "Status",
+        "label": "Status"
+      },
+      {
+        "ent_field_name": "CreationSource",
+        "label": "Creation Source",
+        "value": "Unknown"
+      },
+      {
+        "ent_field_name": "LastCommentedTime",
+        "label": "Last comment timestamp",
+        "timestamp_value": 1605541436
+      },
+      {
+        "ent_field_name": "ParentID",
+        "label": "ID of the parent case that is duplicated by this case, if one exists",
+        "value": "0"
+      },
+      {
+        "ent_field_name": "Priority",
+        "label": "Priority",
+        "value": "Low"
+      },
+      {
+        "ent_field_name": "LastModifiedTime",
+        "label": "Update time",
+        "timestamp_value": 1645747703
+      },
+      {
+        "ent_field_name": "UserConsentAvailable",
+        "label": "User consented to survey",
+        "value": "False",
+        "description": "If user opted in to receive survey"
+      },
+      {
+        "dict": [
+          
+        ],
+        "title": "Case attachments"
+      },
+      {
+        "ent_field_name": "CaseTypeDisplayName",
+        "label": "Case type name",
+        "value": "Unsure? Ask another Question",
+        "description": "Case type name"
+      },
+      {
+        "ent_field_name": "CaseTypeDescription",
+        "label": "Case type description",
+        "value": "Don't see your question's category listed above? Ask us here!",
+        "description": "Case type description"
+      },
+      {
+        "dict": [
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": ""
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "1086569311772389"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1605541436
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi Camilla,\n\nThank you for the confirmation. As requested, I will now close this ticket. You can always reopen it if you require further assistance. \n\nWe actively use feedback to constantly improve our delivery and provide you with the best possible service. We\u00e2\u0080\u0099d love to get your feedback through our brief customer survey that will be available at the top of this support ticket after closure.\n\nKind regards,\nPetra"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "1086569218439065"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1605541427
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Thank you for such a quick reply! You can close this ticket now. \nMy best,\nCamilla"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "value": "100013348891711",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "1086566268439360"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1605541161
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi Camilla,\n\nThank you for contacting Workplace Support.\n\nCurrently, Workplace Rooms is still in Beta, however, we're hoping for a general release in the near future. That date has not been finalized yet but, once it is, we will certainly inform our customers. You can stay up to date by joining our Workplace Product Announcements group. Admins and non-admins can join by clicking on this link:\n\nFb.me/g/1vBFB9bR7/iss7tSym (https://fb.me/g/1vBFB9bR7/iss7tSym)\n\nWe appreciate your understanding. Given the information above, kindly advise whether we can close this ticket for now. Please feel free to reply to this message if you have any additional questions or concerns.\n\nLooking forward to hearing from you.\n\nBest,\nPetra"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "1086565565106097"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1605541099
+              }
+            ],
+            "title": ""
+          }
+        ],
+        "title": "Case updates"
+      }
+    ],
+    "fbid": "1086542058441781",
+    "ent_name": "EntWorkplaceExternalCase"
+  },
+  {
+    "timestamp": 1591778735,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "DataAccessAuthorized",
+        "label": "Data Access Authorized",
+        "value": "False",
+        "description": "Whether case creator has authorized data access"
+      },
+      {
+        "ent_field_name": "CaseExtraData",
+        "label": "Case extra data",
+        "dict": [
+          {
+            "label": "Data Access Authorization",
+            "value": "Yes, I authorize Facebook to access data related to the account if deemed necessary by Facebook to resolve the ticket"
+          },
+          {
+            "label": "Operating system and version",
+            "value": "Windows 10"
+          },
+          {
+            "label": "Browser name and version",
+            "value": "Chrome 83.0.4103.97"
+          }
+        ],
+        "description": "Each case type can have custom fields, these are their values specified by user"
+      },
+      {
+        "ent_field_name": "PermanentlyClosed",
+        "label": "Permanently closed",
+        "value": "False",
+        "description": "Cases can not be reopened 30 days after they were closed"
+      },
+      {
+        "ent_field_name": "Subscribers",
+        "label": "Subscribers",
+        "value": "100013348891711",
+        "description": "Admins subscribed to this case"
+      },
+      {
+        "ent_field_name": "Title",
+        "label": "Title",
+        "value": "Inviting external users to a separate page"
+      },
+      {
+        "ent_field_name": "Description",
+        "label": "Description",
+        "value": "We are going to collaborate with various external Key Opinion Leaders and want to use Workplace. Ideally we would want to create a separate domain for example medistimkol.com so that it is separate from the rest of the employees. Could you help us understand the difference between that and using the Multicompany group function vs setting up a sub-sub domain? Thank you."
+      },
+      {
+        "ent_field_name": "CreatorID",
+        "label": "Creator ID",
+        "value": "100013348891711"
+      },
+      {
+        "ent_field_name": "Status",
+        "label": "Status"
+      },
+      {
+        "ent_field_name": "CreationSource",
+        "label": "Creation Source",
+        "value": "Unknown"
+      },
+      {
+        "ent_field_name": "LastCommentedTime",
+        "label": "Last comment timestamp",
+        "timestamp_value": 1592314372
+      },
+      {
+        "ent_field_name": "ParentID",
+        "label": "ID of the parent case that is duplicated by this case, if one exists",
+        "value": "0"
+      },
+      {
+        "ent_field_name": "Priority",
+        "label": "Priority",
+        "value": "None"
+      },
+      {
+        "ent_field_name": "LastModifiedTime",
+        "label": "Update time",
+        "timestamp_value": 1645747703
+      },
+      {
+        "ent_field_name": "UserConsentAvailable",
+        "label": "User consented to survey",
+        "value": "False",
+        "description": "If user opted in to receive survey"
+      },
+      {
+        "dict": [
+          
+        ],
+        "title": "Case attachments"
+      },
+      {
+        "ent_field_name": "CaseTypeDisplayName",
+        "label": "Case type name",
+        "value": "Collaboration Integrations",
+        "description": "Case type name"
+      },
+      {
+        "ent_field_name": "CaseTypeDescription",
+        "label": "Case type description",
+        "value": "Integrations with Dropbox, OneDrive, Google Drive, Office 365, Salesforce, Quip, Box...",
+        "description": "Case type description"
+      },
+      {
+        "dict": [
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi Camilla,\n\nThank you for the confirmation. As requested, I will now close this ticket. You can always reopen it if you require further assistance. \n\nWe actively use feedback to constantly improve our delivery and provide you with the best possible service. We\u00e2\u0080\u0099d love to get your feedback through our brief customer survey that will be available at the top of this support ticket after closure.\n\nKind regards,\nKamila"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "966513417111313"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1592314373
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Yes, I did receive your message, sorry for not replying. And yes, you can close the ticket. \nThanks for your quick feedback and support!! \n\nMy best,\nCamilla"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "value": "100013348891711",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "966410783788243"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1592303399
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi\n  \nWe're just checking in to see if you've received our message. If we don't hear back from you in the next few days, we'll go ahead and close the ticket.\n  \nThank you,\n  \nWorkplace Support team"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "966401733789148"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1592302313
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi Camilla, \n\nThank you for contacting Workplace Support. I am happy to help you with your query regarding collaborating with people outside your Workplace and just have limited access to specific content.\n\nYou can invite members of any community that has enabled multi-company groups to join your group. You can also invite people who don't belong to Workplace, by simply entering their email address under Add Members. \n\nPeople who are part of your multi-company group, but not your Workplace community, can't see any content in your Workplace community.\n\nTo create a multi-company group, go to Create Group and select Multi-Company.\nFind more information in our Help Center:\nhttps://www.facebook.com/help/work/254734331656422\n\nI hope this helps. Please, feel free to contact me if you need further assistance.\n\nHave a good day, \nKamila"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "962699927492662"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1591866989
+              }
+            ],
+            "title": ""
+          }
+        ],
+        "title": "Case updates"
+      }
+    ],
+    "fbid": "961958910900097",
+    "ent_name": "EntWorkplaceExternalCase"
+  },
+  {
+    "timestamp": 1580143334,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "DataAccessAuthorized",
+        "label": "Data Access Authorized",
+        "value": "False",
+        "description": "Whether case creator has authorized data access"
+      },
+      {
+        "ent_field_name": "CaseExtraData",
+        "label": "Case extra data",
+        "dict": [
+          {
+            "label": "I am experiencing an unexpected behavior on",
+            "value": "Web"
+          },
+          {
+            "label": "Operating system and version",
+            "value": "Windows 10"
+          },
+          {
+            "label": "Browser name and version",
+            "value": "Chrome 79.0.3945.130"
+          },
+          {
+            "label": "Number of the affected users",
+            "value": "2"
+          }
+        ],
+        "description": "Each case type can have custom fields, these are their values specified by user"
+      },
+      {
+        "ent_field_name": "PermanentlyClosed",
+        "label": "Permanently closed",
+        "value": "False",
+        "description": "Cases can not be reopened 30 days after they were closed"
+      },
+      {
+        "ent_field_name": "Subscribers",
+        "label": "Subscribers",
+        "value": "100023631452522",
+        "description": "Admins subscribed to this case"
+      },
+      {
+        "ent_field_name": "Title",
+        "label": "Title",
+        "value": "Photo album help"
+      },
+      {
+        "ent_field_name": "Description",
+        "label": "Description",
+        "value": "I am not able to post a photo album to my group. I have added all of the photos but the \"Post\" button is grayed out. Any help with this please? My boss is also unable to post the ablum as well."
+      },
+      {
+        "ent_field_name": "CreatorID",
+        "label": "Creator ID",
+        "value": "100023631452522"
+      },
+      {
+        "ent_field_name": "Status",
+        "label": "Status"
+      },
+      {
+        "ent_field_name": "CreationSource",
+        "label": "Creation Source",
+        "value": "Unknown"
+      },
+      {
+        "ent_field_name": "LastCommentedTime",
+        "label": "Last comment timestamp",
+        "timestamp_value": 1580597290
+      },
+      {
+        "ent_field_name": "ParentID",
+        "label": "ID of the parent case that is duplicated by this case, if one exists",
+        "value": "0"
+      },
+      {
+        "ent_field_name": "Priority",
+        "label": "Priority",
+        "value": "None"
+      },
+      {
+        "ent_field_name": "LastModifiedTime",
+        "label": "Update time",
+        "timestamp_value": 1677218632
+      },
+      {
+        "ent_field_name": "UserConsentAvailable",
+        "label": "User consented to survey",
+        "value": "False",
+        "description": "If user opted in to receive survey"
+      },
+      {
+        "dict": [
+          {
+            "dict": [
+              {
+                "ent_field_name": "Filename",
+                "label": "File attached",
+                "value": "Workplace Photo Album.JPG"
+              },
+              {
+                "ent_field_name": "Handle",
+                "label": "File",
+                "media": [
+                  {
+                    "uri": "messages/support_files/2510320852565401.jpg",
+                    "fbid_INTERNAL": 2510320852565401,
+                    "everstore_handle": "GHabCwVuWuOeH_sIAAAAAAC_d2Ucbo8IAAAB"
+                  }
+                ]
+              },
+              {
+                "ent_field_name": "UpdateTime",
+                "label": "Update time",
+                "timestamp_value": 1703043220
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "2510320852565401"
+              }
+            ],
+            "title": ""
+          }
+        ],
+        "title": "Case attachments"
+      },
+      {
+        "ent_field_name": "CaseTypeDisplayName",
+        "label": "Case type name",
+        "value": "Unexpected Behavior",
+        "description": "Case type name"
+      },
+      {
+        "ent_field_name": "CaseTypeDescription",
+        "label": "Case type description",
+        "value": "Reporting specific behavior that doesn\u00e2\u0080\u0099t match with your expectations",
+        "description": "Case type description"
+      },
+      {
+        "dict": [
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi\n  \nWe've not heard back from you on this ticket in a while. We are going to close this ticket. Please respond to this message if you'd like to continue the conversation.\nYou can always contact us directly or visit the Help Community (http://work.facebook.com/help/work/community) if you have any other questions.\n  \nThank you,\n  \nWorkplace Support team"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "868853360210653"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1580597070
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi\n  \nWe're just checking in to see if you've received our message. If we don't hear back from you in the next few days, we'll go ahead and close the ticket.\n  \nThank you,\n  \nWorkplace Support team"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "867451620350827"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1580429914
+              }
+            ],
+            "title": ""
+          },
+          {
+            "dict": [
+              {
+                "ent_field_name": "Message",
+                "label": "Message",
+                "value": "Hi Amanda,\n\nThank you for contacting Workplace Support. \n\nIn order for us to help you further, could you please provide the following information, \n\n1. Could you please record a screen recording of the error you face when you try to upload the photos? \n2. Could you try uploading a different set of photos to see if it's successful? \n3. Can you provide the emails of the users who are affected with the same error? \n4. Please also provide the group link? \n5. Could you re-try to upload the photos again via a private browser, please clear cache and cookies?\n\nProviding the above information could greatly help us in finding a resolution to the problem.\n\nBest regards, \n\nTristan"
+              },
+              {
+                "ent_field_name": "Translation",
+                "label": "Translation"
+              },
+              {
+                "ent_field_name": "CreatorID",
+                "label": "CreatorID",
+                "description": "If creator of this update is a member of a Workplace community - then this contains ID, otherwise empty"
+              },
+              {
+                "ent_field_name": "Status",
+                "label": "Status",
+                "description": "Status change related to this update"
+              },
+              {
+                "dict": [
+                  
+                ],
+                "title": "Case update attachments"
+              },
+              {
+                "ent_field_name": "ID",
+                "value": "865306613898661"
+              },
+              {
+                "ent_field_name": "UpdatesTimestamp",
+                "timestamp_value": 1580161222
+              }
+            ],
+            "title": ""
+          }
+        ],
+        "title": "Case updates"
+      }
+    ],
+    "fbid": "865160813913241",
+    "ent_name": "EntWorkplaceExternalCase"
+  }
+]

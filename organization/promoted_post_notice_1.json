@@ -1,0 +1,1552 @@
+[
+  {
+    "timestamp": 1749114613,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ExpirationTime",
+        "label": "Expiration time",
+        "timestamp_value": 1749719391
+      },
+      {
+        "ent_field_name": "PostID",
+        "label": "Post ID",
+        "value": "4022834714651375"
+      },
+      {
+        "ent_field_name": "AudienceCount",
+        "label": "Audience count",
+        "value": "132"
+      },
+      {
+        "ent_field_name": "IsBoosted",
+        "label": "Is boosted",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "PromotionType",
+        "label": "Promotion type",
+        "value": "Marked as key update"
+      },
+      {
+        "ent_field_name": "IsPromotionDeleted",
+        "label": "Is promotion deleted",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "CreatedByID",
+        "label": "Created by ID",
+        "value": "100035200398337"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013229891524"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013338602613"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100082827165853"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61570925975999"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100057247717041"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013209343223"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100054257404848"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100090249166072"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100022301130219"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013290816755"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100086782380289"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61571431115178"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013189694840"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100081636877822"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100084945504477"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013283197103"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100067476166581"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013179435919"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100090787916350"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100081629768256"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013439496355"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100091863254225"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100054312591092"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100017516791324"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013282507207"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013330533177"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100076944574674"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013163477196"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013253829663"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013293276281"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61551900782118"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013304615217"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013359390787"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100064711630698"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100058924796410"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100027967020007"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013199233958"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013281607162"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100023631452522"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013348891711"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61567412144907"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100089210622733"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100064016181653"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013229711503"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100076485804648"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61563160546924"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013318623973"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61565748536036"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013201843654"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61558122237184"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61556483080056"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61556790485882"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100056067734639"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61572857306668"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100080805495848"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100088877303560"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100080261962177"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013320574006"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100094106076232"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013315563995"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100033404271916"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61571540969336"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61564244586677"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100084868997322"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100082827165853"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100076485804648"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013179435919"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100022301130219"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013338602613"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100054257404848"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013318623973"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100090339211889"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100054312591092"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013330533177"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013439496355"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013304615217"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013185045234"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100058924796410"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013163477196"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013310014859"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100089210622733"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100064016181653"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61563160546924"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013281607162"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100081629768256"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61556483080056"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61551900782118"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100067476166581"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013253829663"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100090249166072"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100023631452522"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61556790485882"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100056067734639"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61565748536036"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013241110857"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100015021482040"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100090962079138"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013320574006"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100047031693132"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100080805495848"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61572857306668"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100088877303560"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100091616688217"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100094106076232"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013262468949"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100033404271916"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100084945504477"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013252599656"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013348891711"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61571540969336"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61564244586677"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013199233958"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100035200398337"
+      }
+    ],
+    "fbid": "4022835714651275",
+    "ent_name": "EntWorkPromotedPostCompanyNotice"
+  },
+  {
+    "timestamp": 1709716199,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ExpirationTime",
+        "label": "Expiration time",
+        "timestamp_value": 1731504207
+      },
+      {
+        "ent_field_name": "PostID",
+        "label": "Post ID",
+        "value": "1842022929573127"
+      },
+      {
+        "ent_field_name": "AudienceCount",
+        "label": "Audience count",
+        "value": "161"
+      },
+      {
+        "ent_field_name": "IsBoosted",
+        "label": "Is boosted",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "PromotionType",
+        "label": "Promotion type",
+        "value": "Marked as key update"
+      },
+      {
+        "ent_field_name": "IsPromotionDeleted",
+        "label": "Is promotion deleted",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "CreatedByID",
+        "label": "Created by ID",
+        "value": "100013262468949"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61567412144907"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100091248485041"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013185045234"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013312005994"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61551798037363"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100082828725996"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013304405240"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013220862223"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013259409038"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61564244586677"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013189694840"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100089414434386"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100057247717041"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100081629768256"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100058924796410"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100048837112667"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013201843654"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100085083745239"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013209343223"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013228841671"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100017516791324"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61553655054400"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100090962079138"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100039952666159"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100027967020007"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100084945504477"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100084868997322"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100091811866823"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61553947874964"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100091863254225"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013252599656"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100035200398337"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013338602613"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100084135233946"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013181145920"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013315563995"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013310014859"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013346851751"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100024120787340"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100034699419485"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013282507207"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013229891524"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61556790485882"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100080261962177"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100076485804648"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100081628500192"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100088662117961"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100022301130219"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013139989152"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100094106076232"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100081636877822"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013199233958"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100015490656098"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013179435919"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100047031693132"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013290816755"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013337252525"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013213332772"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100064711630698"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100077806668424"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100033404271916"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013304615217"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013359390787"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013281607162"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013241110857"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013229711503"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100081260152381"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100067476166581"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100090339211889"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100048312150612"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013293276281"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61550958892046"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100093630182898"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61550884553050"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100085368287543"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100086782380289"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100090126792802"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013253829663"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61554439753810"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013320574006"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100021891827788"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100092004055462"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61556483080056"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100087140502026"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100080805495848"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013339382401"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100088877303560"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013142208957"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013262468949"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100090787916350"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013365120255"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100090249166072"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100076944574674"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100056067734639"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100082827165853"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013178655738"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100075680228285"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100054312591092"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100064016181653"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100015021482040"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100023631452522"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100054257404848"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100091616688217"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100089210622733"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "61551900782118"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013318623973"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013163477196"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100084876267314"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100072477798931"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013348891711"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100081413626794"
+      },
+      {
+        "ent_field_name": "MarkedAsSeenInKUSurfaceUsersID",
+        "label": "Marked seen by user ID",
+        "value": "100013439496355"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100086782380289"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100089414434386"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100084868997322"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100054257404848"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013228841671"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100048837112667"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61558122237184"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013320574006"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61553947874964"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61554439753810"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100057247717041"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61550958892046"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100088662117961"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013346851751"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013338602613"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013199233958"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100089210622733"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100033404271916"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013209343223"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013189694840"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100081629768256"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100021891827788"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013310014859"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013304615217"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100093630182898"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013179435919"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100091863254225"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100092004055462"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100048312150612"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100034699419485"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100081628500192"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100076485804648"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100080805495848"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013229711503"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013281607162"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100081636877822"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013252599656"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100094106076232"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100087140502026"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100085368287543"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61550884553050"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100077806668424"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013241110857"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100090787916350"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013253829663"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013339382401"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100090339211889"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013283197103"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013181145920"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100076944574674"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100084945504477"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61556483080056"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100090249166072"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100075680228285"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100054312591092"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100015021482040"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100023631452522"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100091616688217"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100015490656098"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "61551900782118"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013318623973"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013439496355"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100080261962177"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100084876267314"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100035200398337"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013348891711"
+      },
+      {
+        "ent_field_name": "ViewedByID",
+        "label": "Viewed by user ID",
+        "value": "100013262468949"
+      }
+    ],
+    "fbid": "1877790209316958",
+    "ent_name": "EntWorkPromotedPostCompanyNotice"
+  }
+]

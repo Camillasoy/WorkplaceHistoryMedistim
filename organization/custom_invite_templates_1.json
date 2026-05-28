@@ -1,0 +1,158 @@
+[
+  {
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "Title",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "ent_field_name": "Body",
+        "label": "Body",
+        "value": "Welcome to Medistim! We use Workplace for company updates and important announcements. Please create your account today to share project updates, ask questions and make new connections."
+      },
+      {
+        "ent_field_name": "IsDraftTemplate",
+        "label": "Is draft template",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "CreatorID",
+        "label": "Creator ID",
+        "value": "100013252599656"
+      },
+      {
+        "ent_field_name": "NoteText",
+        "label": "Note text",
+        "value": ""
+      },
+      {
+        "ent_field_name": "LastEditorID",
+        "label": "Last editor ID",
+        "value": "100013252599656"
+      }
+    ],
+    "fbid": "2025344121273507",
+    "ent_name": "EntWorkCustomInviteTemplate"
+  },
+  {
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "Title",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "ent_field_name": "Body",
+        "label": "Body",
+        "value": "Hey Chris, Medistim uses Workplace for company updates and important announcements. Please create your account today to share updates from the field, ask questions and make new connections with your colleagues. "
+      },
+      {
+        "ent_field_name": "IsDraftTemplate",
+        "label": "Is draft template",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "CreatorID",
+        "label": "Creator ID",
+        "value": "100023631452522"
+      },
+      {
+        "ent_field_name": "NoteText",
+        "label": "Note text",
+        "value": ""
+      },
+      {
+        "ent_field_name": "LastEditorID",
+        "label": "Last editor ID",
+        "value": "100023631452522"
+      }
+    ],
+    "fbid": "906812954989129",
+    "ent_name": "EntWorkCustomInviteTemplate"
+  },
+  {
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "Title",
+        "label": "Title",
+        "value": "New Rep"
+      },
+      {
+        "ent_field_name": "Body",
+        "label": "Body",
+        "value": "Hey Monica, Medistim uses Workplace for company updates and important announcements. Please create your account today to share updates from the field, ask questions and make new connections with your colleagues. "
+      },
+      {
+        "ent_field_name": "IsDraftTemplate",
+        "label": "Is draft template",
+        "value": "False"
+      },
+      {
+        "ent_field_name": "CreatorID",
+        "label": "Creator ID",
+        "value": "100023631452522"
+      },
+      {
+        "ent_field_name": "NoteText",
+        "label": "Note text",
+        "value": ""
+      },
+      {
+        "ent_field_name": "LastEditorID",
+        "label": "Last editor ID",
+        "value": "100023631452522"
+      }
+    ],
+    "fbid": "881669533545535",
+    "ent_name": "EntWorkCustomInviteTemplate"
+  },
+  {
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "Title",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "ent_field_name": "Body",
+        "label": "Body",
+        "value": "Hello Markus,\nSorry about the de-activation from workplace! Hope you now will be able to join in again :-)\nKind regards,\nH\u00c3\u00a6ge"
+      },
+      {
+        "ent_field_name": "IsDraftTemplate",
+        "label": "Is draft template",
+        "value": "True"
+      },
+      {
+        "ent_field_name": "CreatorID",
+        "label": "Creator ID",
+        "value": "100013262468949"
+      },
+      {
+        "ent_field_name": "NoteText",
+        "label": "Note text",
+        "value": ""
+      },
+      {
+        "ent_field_name": "LastEditorID",
+        "label": "Last editor ID",
+        "value": "100013262468949"
+      }
+    ],
+    "fbid": "420391246511760",
+    "ent_name": "EntWorkCustomInviteTemplate"
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "timestamp": 1772529990,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ActorID",
+        "label": "ActorID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "TargetID",
+        "label": "TargetID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "IP",
+        "label": "IP",
+        "value": "188.95.247.202"
+      },
+      {
+        "ent_field_name": "Activity",
+        "label": "Activity",
+        "value": "Log in"
+      },
+      {
+        "ent_field_name": "BrowserName",
+        "label": "BrowserName",
+        "value": "Chrome"
+      },
+      {
+        "ent_field_name": "BrowserOS",
+        "label": "BrowserOS",
+        "value": "Android 10"
+      },
+      {
+        "ent_field_name": "IPCountry",
+        "label": "IPCountry",
+        "value": "NO"
+      },
+      {
+        "ent_field_name": "UserAgent",
+        "label": "UserAgent",
+        "value": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+      },
+      {
+        "ent_field_name": "ExtraData",
+        "label": "ExtraData",
+        "value": ""
+      }
+    ],
+    "fbid": "2060106392",
+    "ent_name": "EntWorkSecurityLog"
+  },
+  {
+    "timestamp": 1772529993,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ActorID",
+        "label": "ActorID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "TargetID",
+        "label": "TargetID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "IP",
+        "label": "IP",
+        "value": "188.95.247.202"
+      },
+      {
+        "ent_field_name": "Activity",
+        "label": "Activity",
+        "value": "Log in"
+      },
+      {
+        "ent_field_name": "BrowserName",
+        "label": "BrowserName",
+        "value": "Chrome"
+      },
+      {
+        "ent_field_name": "BrowserOS",
+        "label": "BrowserOS",
+        "value": "Android 10"
+      },
+      {
+        "ent_field_name": "IPCountry",
+        "label": "IPCountry",
+        "value": "NO"
+      },
+      {
+        "ent_field_name": "UserAgent",
+        "label": "UserAgent",
+        "value": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+      },
+      {
+        "ent_field_name": "ExtraData",
+        "label": "ExtraData",
+        "value": ""
+      }
+    ],
+    "fbid": "2060106394",
+    "ent_name": "EntWorkSecurityLog"
+  },
+  {
+    "timestamp": 1772530030,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ActorID",
+        "label": "ActorID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "TargetID",
+        "label": "TargetID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "IP",
+        "label": "IP",
+        "value": "188.95.247.202"
+      },
+      {
+        "ent_field_name": "Activity",
+        "label": "Activity",
+        "value": "Group file download"
+      },
+      {
+        "ent_field_name": "BrowserName",
+        "label": "BrowserName",
+        "value": "Chrome"
+      },
+      {
+        "ent_field_name": "BrowserOS",
+        "label": "BrowserOS",
+        "value": "Android 10"
+      },
+      {
+        "ent_field_name": "IPCountry",
+        "label": "IPCountry",
+        "value": "NO"
+      },
+      {
+        "ent_field_name": "UserAgent",
+        "label": "UserAgent",
+        "value": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+      },
+      {
+        "ent_field_name": "ExtraData",
+        "label": "ExtraData",
+        "value": "\n\u000f\bfilename\u000f2Annonse Produksjonsmedarbeider System Nov 2024.pdf\u000f\u0010file_preview_url\u000f#/download/preview/1665772460666491/\u000f\rfile_group_id\u000f\u000f673089172857468\u000f\u000ffile_post_token\u000f 673089172857468_2917534471746249\u0001"
+      }
+    ],
+    "fbid": "2060106437",
+    "ent_name": "EntWorkSecurityLog"
+  },
+  {
+    "timestamp": 1772530036,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ActorID",
+        "label": "ActorID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "TargetID",
+        "label": "TargetID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "IP",
+        "label": "IP",
+        "value": "188.95.247.202"
+      },
+      {
+        "ent_field_name": "Activity",
+        "label": "Activity",
+        "value": "Group file download"
+      },
+      {
+        "ent_field_name": "BrowserName",
+        "label": "BrowserName",
+        "value": "Chrome"
+      },
+      {
+        "ent_field_name": "BrowserOS",
+        "label": "BrowserOS",
+        "value": "Android 10"
+      },
+      {
+        "ent_field_name": "IPCountry",
+        "label": "IPCountry",
+        "value": "NO"
+      },
+      {
+        "ent_field_name": "UserAgent",
+        "label": "UserAgent",
+        "value": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+      },
+      {
+        "ent_field_name": "ExtraData",
+        "label": "ExtraData",
+        "value": "\n\u000f\bfilename\u000f2Annonse Produksjonsmedarbeider System Nov 2024.pdf\u000f\u0010file_preview_url\u000f#/download/preview/1665772460666491/\u000f\rfile_group_id\u000f\u000f673089172857468\u000f\u000ffile_post_token\u000f 673089172857468_2917534471746249\u0001"
+      }
+    ],
+    "fbid": "2060106441",
+    "ent_name": "EntWorkSecurityLog"
+  },
+  {
+    "timestamp": 1772535118,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ActorID",
+        "label": "ActorID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "TargetID",
+        "label": "TargetID",
+        "value": "61550869436275"
+      },
+      {
+        "ent_field_name": "IP",
+        "label": "IP",
+        "value": "188.95.247.202"
+      },
+      {
+        "ent_field_name": "Activity",
+        "label": "Activity",
+        "value": "Group file download"
+      },
+      {
+        "ent_field_name": "BrowserName",
+        "label": "BrowserName",
+        "value": "Chrome"
+      },
+      {
+        "ent_field_name": "BrowserOS",
+        "label": "BrowserOS",
+        "value": "Android 10"
+      },
+      {
+        "ent_field_name": "IPCountry",
+        "label": "IPCountry",
+        "value": "NO"
+      },
+      {
+        "ent_field_name": "UserAgent",
+        "label": "UserAgent",
+        "value": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+      },
+      {
+        "ent_field_name": "ExtraData",
+        "label": "ExtraData",
+        "value": "\n\u000f\bfilename\u000f2Annonse Produksjonsmedarbeider System Nov 2024.pdf\u000f\u0010file_preview_url\u000f#/download/preview/1665772460666491/\u000f\rfile_group_id\u000f\u000f673089172857468\u000f\u000ffile_post_token\u000f 673089172857468_2917534471746249\u0001"
+      }
+    ],
+    "fbid": "2060114272",
+    "ent_name": "EntWorkSecurityLog"
+  },
+  {
+    "timestamp": 1773407970,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ActorID",
+        "label": "ActorID",
+        "value": "61553947874964"
+      },
+      {
+        "ent_field_name": "TargetID",
+        "label": "TargetID",
+        "value": "61553947874964"
+      },
+      {
+        "ent_field_name": "IP",
+        "label": "IP",
+        "value": "188.95.246.8"
+      },
+      {
+        "ent_field_name": "Activity",
+        "label": "Activity",
+        "value": "Group file download"
+      },
+      {
+        "ent_field_name": "BrowserName",
+        "label": "BrowserName",
+        "value": "Firefox"
+      },
+      {
+        "ent_field_name": "BrowserOS",
+        "label": "BrowserOS",
+        "value": "Windows 10"
+      },
+      {
+        "ent_field_name": "IPCountry",
+        "label": "IPCountry",
+        "value": "NO"
+      },
+      {
+        "ent_field_name": "UserAgent",
+        "label": "UserAgent",
+        "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0"
+      },
+      {
+        "ent_field_name": "ExtraData",
+        "label": "ExtraData",
+        "value": "\n\u000f\bfilename\u000f&Personalh\u00c3\u00a5ndbok-Versjon 6.0 -2024.pdf\u000f\u0010file_preview_url\u000f\"/download/preview/824702229854549/\u000f\rfile_group_id\u000f\u00103708698502700185\u000f\u000ffile_post_token\u000f!3708698502700185_3950307195205980\u0001"
+      }
+    ],
+    "fbid": "2061041782",
+    "ent_name": "EntWorkSecurityLog"
+  },
+  {
+    "timestamp": 1777290609,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ActorID",
+        "label": "ActorID",
+        "value": "100021891827788"
+      },
+      {
+        "ent_field_name": "TargetID",
+        "label": "TargetID",
+        "value": "100021891827788"
+      },
+      {
+        "ent_field_name": "IP",
+        "label": "IP",
+        "value": "188.95.247.248"
+      },
+      {
+        "ent_field_name": "Activity",
+        "label": "Activity",
+        "value": "Log in"
+      },
+      {
+        "ent_field_name": "BrowserName",
+        "label": "BrowserName",
+        "value": "Chrome"
+      },
+      {
+        "ent_field_name": "BrowserOS",
+        "label": "BrowserOS",
+        "value": "Windows 10"
+      },
+      {
+        "ent_field_name": "IPCountry",
+        "label": "IPCountry",
+        "value": "NO"
+      },
+      {
+        "ent_field_name": "UserAgent",
+        "label": "UserAgent",
+        "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+      },
+      {
+        "ent_field_name": "ExtraData",
+        "label": "ExtraData",
+        "value": ""
+      }
+    ],
+    "fbid": "2064280711",
+    "ent_name": "EntWorkSecurityLog"
+  },
+  {
+    "timestamp": 1778265459,
+    "media": [
+      
+    ],
+    "label_values": [
+      {
+        "ent_field_name": "ActorID",
+        "label": "ActorID",
+        "value": "100090787916350"
+      },
+      {
+        "ent_field_name": "TargetID",
+        "label": "TargetID",
+        "value": "100090787916350"
+      },
+      {
+        "ent_field_name": "IP",
+        "label": "IP",
+        "value": "83.171.250.251"
+      },
+      {
+        "ent_field_name": "Activity",
+        "label": "Activity",
+        "value": "Log in"
+      },
+      {
+        "ent_field_name": "BrowserName",
+        "label": "BrowserName",
+        "value": "Chrome"
+      },
+      {
+        "ent_field_name": "BrowserOS",
+        "label": "BrowserOS",
+        "value": "Windows 10"
+      },
+      {
+        "ent_field_name": "IPCountry",
+        "label": "IPCountry",
+        "value": "US"
+      },
+      {
+        "ent_field_name": "UserAgent",
+        "label": "UserAgent",
+        "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+      },
+      {
+        "ent_field_name": "ExtraData",
+        "label": "ExtraData",
+        "value": ""
+      }
+    ],
+    "fbid": "2065007772",
+    "ent_name": "EntWorkSecurityLog"
+  }
+]
