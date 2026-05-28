@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medistim Workplace Archive</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #0e0f11;
+      --surface: #16181c;
+      --border: #2a2d34;
+      --accent: #e8c87a;
+      --accent2: #7ab8e8;
+      --text: #e8e6e0;
+      --muted: #7a7d85;
+      --red: #e87a7a;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Mono', monospace;
+      font-size: 13px;
+      min-height: 100vh;
+    }
+
+    /* HEADER */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 48px 64px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 320px; height: 320px;
+      background: radial-gradient(circle, rgba(232,200,122,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .header-label {
+      color: var(--accent);
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(32px, 5vw, 56px);
+      font-weight: 400;
+      line-height: 1.1;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+    h1 em {
+      font-style: italic;
+      color: var(--accent);
+    }
+    .header-sub {
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 0.05em;
+    }
+
+    /* NAV TABS */
+    nav {
+      display: flex;
+      gap: 0;
+      border-bottom: 1px solid var(--border);
+      padding: 0 64px;
+      overflow-x: auto;
+    }
+    nav button {
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-family: 'DM Mono', monospace;
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      padding: 16px 24px;
+      text-transform: uppercase;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    nav button:hover { color: var(--text); }
+    nav button.active {
+      border-bottom-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* MAIN */
+    main {
+      padding: 48px 64px;
+      max-width: 1400px;
+    }
+
+    .section { display: none; }
+    .section.active { display: block; }
+
+    /* STATS BAR */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      margin-bottom: 48px;
+    }
+    .stat {
+      background: var(--surface);
+      padding: 24px;
+    }
+    .stat-value {
+      font-family: 'DM Serif Display', serif;
+      font-size: 36px;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .stat-label {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    /* SECTION HEADER */
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .section-header h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 28px;
+      font-weight: 400;
+    }
+    .count-badge {
+      background: var(--border);
+      color: var(--muted);
+      font-size: 11px;
+      padding: 3px 10px;
+      letter-spacing: 0.1em;
+    }
+
+    /* SEARCH */
+    .search-bar {
+      margin-bottom: 28px;
+    }
+    .search-bar input {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'DM Mono', monospace;
+      font-size: 13px;
+      padding: 12px 16px;
+      width: 100%;
+      max-width: 420px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-bar input:focus { border-color: var(--accent); }
+    .search-bar input::placeholder { color: var(--muted); }
+
+    /* GROUPS GRID */
+    .groups-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1px;
+      background: var(--border);
+    }
+    .group-card {
+      background: var(--surface);
+      padding: 28px;
+      transition: background 0.2s;
+      position: relative;
+    }
+    .group-card:hover { background: #1c1f25; }
+    .group-name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+    .group-desc {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .group-meta {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .meta-tag {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+    .meta-tag span {
+      color: var(--accent2);
+    }
+    .privacy-open { color: var(--accent) !important; }
+    .privacy-closed { color: var(--red) !important; }
+
+    /* MEMBERS TABLE */
+    .members-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .members-table th {
+      text-align: left;
+      padding: 10px 16px;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .members-table td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      font-size: 12px;
+      vertical-align: middle;
+    }
+    .members-table tr:hover td { background: var(--surface); }
+    .member-name {
+      color: var(--text);
+      font-weight: 500;
+    }
+    .member-email { color: var(--muted); }
+    .member-role {
+      font-size: 11px;
+      letter-spacing: 0.05em;
+      padding: 3px 10px;
+      background: var(--border);
+      color: var(--accent);
+      display: inline-block;
+    }
+    .member-role.admin { background: rgba(232,200,122,0.15); }
+
+    /* AVATAR */
+    .avatar {
+      width: 32px; height: 32px;
+      background: var(--border);
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: var(--accent);
+      margin-right: 10px;
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+    .member-cell {
+      display: flex;
+      align-items: center;
+    }
+
+    /* ORG INFO */
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1px;
+      background: var(--border);
+    }
+    .info-card {
+      background: var(--surface);
+      padding: 24px 28px;
+    }
+    .info-label {
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .info-value {
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+    .info-value a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+    .info-value a:hover { text-decoration: underline; }
+
+    /* LOADING */
+    .loading {
+      color: var(--muted);
+      padding: 48px 0;
+      text-align: center;
+      letter-spacing: 0.1em;
+    }
+    .loading::after {
+      content: '';
+      animation: dots 1.5s infinite;
+    }
+    @keyframes dots {
+      0%,20% { content: '.'; }
+      40%,60% { content: '..'; }
+      80%,100% { content: '...'; }
+    }
+
+    /* ERROR */
+    .error-msg {
+      color: var(--red);
+      font-size: 12px;
+      padding: 16px;
+      border: 1px solid var(--red);
+      background: rgba(232,122,122,0.05);
+    }
+
+    /* EMPTY */
+    .empty {
+      color: var(--muted);
+      padding: 32px 0;
+      font-size: 12px;
+      letter-spacing: 0.05em;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px 64px;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      margin-top: 64px;
+    }
+
+    @media (max-width: 768px) {
+      header, nav, main, footer { padding-left: 20px; padding-right: 20px; }
+      .groups-grid { grid-template-columns: 1fr; }
+      .members-table th:nth-child(3),
+      .members-table td:nth-child(3) { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-label">Archive · Medistim Workplace</div>
+  <h1>Company <em>History</em></h1>
+  <div class="header-sub">Exported from Workplace by Meta · Medistim ASA</div>
+</header>
+
+<nav>
+  <button class="active" onclick="showSection('overview')">Overview</button>
+  <button onclick="showSection('groups')">Groups</button>
+  <button onclick="showSection('members')">Members</button>
+  <button onclick="showSection('organization')">Organization</button>
+</nav>
+
+<main>
+
+  <!-- OVERVIEW -->
+  <div id="overview" class="section active">
+    <div class="stats-bar" id="stats-bar">
+      <div class="stat"><div class="stat-value" id="stat-groups">—</div><div class="stat-label">Groups</div></div>
+      <div class="stat"><div class="stat-value" id="stat-members">—</div><div class="stat-label">Members</div></div>
+      <div class="stat"><div class="stat-value" id="stat-open">—</div><div class="stat-label">Open Groups</div></div>
+      <div class="stat"><div class="stat-value" id="stat-org">—</div><div class="stat-label">Org Records</div></div>
+    </div>
+    <div class="section-header"><h2>Recent Groups</h2></div>
+    <div class="groups-grid" id="overview-groups"><div class="loading">Loading</div></div>
+  </div>
+
+  <!-- GROUPS -->
+  <div id="groups" class="section">
+    <div class="section-header">
+      <h2>All Groups</h2>
+      <span class="count-badge" id="groups-count">—</span>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="group-search" placeholder="Search groups..." oninput="filterGroups()"/>
+    </div>
+    <div class="groups-grid" id="groups-grid"><div class="loading">Loading</div></div>
+  </div>
+
+  <!-- MEMBERS -->
+  <div id="members" class="section">
+    <div class="section-header">
+      <h2>Company Members</h2>
+      <span class="count-badge" id="members-count">—</span>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="member-search" placeholder="Search members..." oninput="filterMembers()"/>
+    </div>
+    <table class="members-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Department</th>
+          <th>Role</th>
+        </tr>
+      </thead>
+      <tbody id="members-tbody"><tr><td colspan="4" class="loading">Loading</td></tr></tbody>
+    </table>
+  </div>
+
+  <!-- ORGANIZATION -->
+  <div id="organization" class="section">
+    <div class="section-header"><h2>Organization Info</h2></div>
+    <div class="info-grid" id="org-grid"><div class="loading">Loading</div></div>
+  </div>
+
+</main>
+
+<footer>
+  Medistim Workplace Archive · Data exported before platform shutdown · workplace-history-medistim.vercel.app
+</footer>
+
+<script>
+  // ── State ──────────────────────────────────────────────
+  let allGroups = [];
+  let allMembers = [];
+
+  // ── Helpers ────────────────────────────────────────────
+  function ts(t) {
+    if (!t) return '—';
+    return new Date(t * 1000).toLocaleDateString('en-GB', { year:'numeric', month:'short', day:'numeric' });
+  }
+
+  function getVal(labelValues, field) {
+    if (!labelValues) return null;
+    const f = labelValues.find(x => x.ent_field_name === field);
+    return f ? (f.value || f.timestamp_value || null) : null;
+  }
+
+  function initials(name) {
+    if (!name) return '?';
+    return name.split(' ').map(w => w[0]).join('').slice(0,2).toUpperCase();
+  }
+
+  // ── Navigation ─────────────────────────────────────────
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    event.target.classList.add('active');
+  }
+
+  // ── Load JSON ──────────────────────────────────────────
+  async function loadJSON(path) {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`${path} → ${res.status}`);
+    return res.json();
+  }
+
+  // ── Parse Groups ───────────────────────────────────────
+  function parseGroups(data) {
+    // data may be array of group objects or object with groups array
+    const arr = Array.isArray(data) ? data : (data.groups || data.data || [data]);
+    return arr.map(g => {
+      const lv = g.label_values || [];
+      return {
+        name: getVal(lv, 'UntranslatedNameRaw') || g.name || 'Unnamed Group',
+        description: getVal(lv, 'Description') || '',
+        privacy: getVal(lv, 'PrivacyType') || '—',
+        url: getVal(lv, 'URL') || null,
+        updated: getVal(lv, 'UpdateTime') || g.timestamp || null,
+        members: extractGroupMembers(lv),
+      };
+    }).filter(g => g.name !== 'Unnamed Group' || g.description);
+  }
+
+  function extractGroupMembers(lv) {
+    const membersField = lv.find(x => x.dict && x.title !== 'Group level installs');
+    if (!membersField || !membersField.dict) return [];
+    return membersField.dict.map(d => {
+      const m = {};
+      (d.dict || []).forEach(f => { m[f.ent_field_name] = f.value; });
+      return m;
+    }).filter(m => m.Name);
+  }
+
+  // ── Parse Members ──────────────────────────────────────
+  function parseMembers(data) {
+    const arr = Array.isArray(data) ? data : (data.members || data.data || []);
+    const members = [];
+    arr.forEach(item => {
+      const lv = item.label_values || [];
+      // top-level member
+      const name = getVal(lv, 'Name') || getVal(lv, 'FullName');
+      const email = getVal(lv, 'PrimaryEmail') || getVal(lv, 'Email');
+      if (name || email) {
+        members.push({
+          name: name || '—',
+          email: email || '—',
+          dept: getVal(lv, 'Department') || getVal(lv, 'Title') || '—',
+          role: getVal(lv, 'AdminType') || getVal(lv, 'Role') || 'Member',
+        });
+      }
+      // nested dicts (like in groups)
+      lv.forEach(f => {
+        if (f.dict) {
+          f.dict.forEach(d => {
+            const m = {};
+            (d.dict || []).forEach(x => { m[x.ent_field_name] = x.value; });
+            if (m.Name || m.PrimaryEmail) {
+              members.push({
+                name: m.Name || '—',
+                email: m.PrimaryEmail || '—',
+                dept: m.Department || m.Title || '—',
+                role: m.MembershipType || m.AdminType || 'Member',
+              });
+            }
+          });
+        }
+      });
+    });
+    // deduplicate by email
+    const seen = new Set();
+    return members.filter(m => {
+      if (seen.has(m.email)) return false;
+      seen.add(m.email);
+      return true;
+    });
+  }
+
+  // ── Render Groups ──────────────────────────────────────
+  function renderGroups(groups, containerId) {
+    const el = document.getElementById(containerId);
+    if (!groups.length) { el.innerHTML = '<div class="empty">No groups found.</div>'; return; }
+    el.innerHTML = groups.map(g => `
+      <div class="group-card">
+        <div class="group-name">${g.name}</div>
+        ${g.description ? `<div class="group-desc">${g.description}</div>` : ''}
+        <div class="group-meta">
+          <div class="meta-tag">Visibility: <span class="${g.privacy==='Open'?'privacy-open':'privacy-closed'}">${g.privacy}</span></div>
+          ${g.updated ? `<div class="meta-tag">Updated: <span>${ts(g.updated)}</span></div>` : ''}
+          ${g.members.length ? `<div class="meta-tag">Members: <span>${g.members.length}</span></div>` : ''}
+          ${g.url ? `<div class="meta-tag"><a href="${g.url}" target="_blank" style="color:var(--accent2)">Open ↗</a></div>` : ''}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // ── Render Members ─────────────────────────────────────
+  function renderMembers(members) {
+    const tbody = document.getElementById('members-tbody');
+    if (!members.length) { tbody.innerHTML = '<tr><td colspan="4" class="empty">No members found.</td></tr>'; return; }
+    document.getElementById('members-count').textContent = members.length;
+    tbody.innerHTML = members.map(m => `
+      <tr>
+        <td><div class="member-cell"><div class="avatar">${initials(m.name)}</div><span class="member-name">${m.name}</span></div></td>
+        <td class="member-email">${m.email}</td>
+        <td class="member-email">${m.dept}</td>
+        <td><span class="member-role ${m.role.toLowerCase().includes('admin')?'admin':''}">${m.role}</span></td>
+      </tr>
+    `).join('');
+  }
+
+  // ── Filter ─────────────────────────────────────────────
+  function filterGroups() {
+    const q = document.getElementById('group-search').value.toLowerCase();
+    const filtered = allGroups.filter(g =>
+      g.name.toLowerCase().includes(q) || g.description.toLowerCase().includes(q)
+    );
+    renderGroups(filtered, 'groups-grid');
+  }
+
+  function filterMembers() {
+    const q = document.getElementById('member-search').value.toLowerCase();
+    const filtered = allMembers.filter(m =>
+      m.name.toLowerCase().includes(q) || m.email.toLowerCase().includes(q) || m.dept.toLowerCase().includes(q)
+    );
+    renderMembers(filtered);
+  }
+
+  // ── Load Org Info ──────────────────────────────────────
+  async function loadOrg() {
+    const grid = document.getElementById('org-grid');
+    try {
+      const data = await loadJSON('organization/company_info_1.json');
+      const lv = data.label_values || [];
+      const fields = lv.filter(f => f.value || f.timestamp_value);
+      if (!fields.length) { grid.innerHTML = '<div class="empty">No organization info found.</div>'; return; }
+      grid.innerHTML = fields.map(f => `
+        <div class="info-card">
+          <div class="info-label">${f.label || f.ent_field_name}</div>
+          <div class="info-value">${
+            f.href ? `<a href="${f.href}" target="_blank">${f.value}</a>` :
+            f.timestamp_value ? ts(f.timestamp_value) :
+            f.value
+          }</div>
+        </div>
+      `).join('');
+    } catch(e) {
+      grid.innerHTML = `<div class="error-msg">Could not load organization info: ${e.message}</div>`;
+    }
+  }
+
+  // ── Main Load ──────────────────────────────────────────
+  async function init() {
+    // Try loading groups from multiple files
+    const groupFiles = [
+      'groups/child_groups_1.json',
+      'groups/multi_company_group_1.json',
+      'groups/people_sets_1.json',
+    ];
+
+    for (const file of groupFiles) {
+      try {
+        const data = await loadJSON(file);
+        const parsed = parseGroups(Array.isArray(data) ? data : [data]);
+        allGroups = [...allGroups, ...parsed];
+      } catch(e) { /* skip missing files */ }
+    }
+
+    // Deduplicate groups by name
+    const seen = new Set();
+    allGroups = allGroups.filter(g => {
+      if (seen.has(g.name)) return false;
+      seen.add(g.name);
+      return true;
+    });
+
+    // Members
+    try {
+      const mdata = await loadJSON('user_profiles/company_members_1.json');
+      allMembers = parseMembers(Array.isArray(mdata) ? mdata : [mdata]);
+      // also extract from groups
+      allGroups.forEach(g => {
+        g.members.forEach(m => {
+          if (m.Name && !allMembers.find(x => x.email === m.PrimaryEmail)) {
+            allMembers.push({ name: m.Name, email: m.PrimaryEmail||'—', dept:'—', role: m.MembershipType||'Member' });
+          }
+        });
+      });
+      const seenEmails = new Set();
+      allMembers = allMembers.filter(m => {
+        if (seenEmails.has(m.email)) return false;
+        seenEmails.add(m.email);
+        return true;
+      });
+    } catch(e) { /* skip */ }
+
+    // Update stats
+    document.getElementById('stat-groups').textContent = allGroups.length || '—';
+    document.getElementById('stat-members').textContent = allMembers.length || '—';
+    document.getElementById('stat-open').textContent = allGroups.filter(g=>g.privacy==='Open').length || '—';
+    document.getElementById('stat-org').textContent = '1';
+
+    // Render overview (first 6 groups)
+    renderGroups(allGroups.slice(0,6), 'overview-groups');
+
+    // Render full groups
+    document.getElementById('groups-count').textContent = allGroups.length;
+    renderGroups(allGroups, 'groups-grid');
+
+    // Render members
+    renderMembers(allMembers);
+
+    // Load org
+    loadOrg();
+  }
+
+  init();
+</script>
+</body>
+</html>
