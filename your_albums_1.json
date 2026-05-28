@@ -1,0 +1,86 @@
+{
+  "media": [
+    
+  ],
+  "label_values": [
+    {
+      "ent_field_name": "ModifiedTime",
+      "label": "Last modified time",
+      "timestamp_value": 1612209684
+    },
+    {
+      "ent_field_name": "MajorModifiedTime",
+      "label": "Last time a photo was added",
+      "timestamp_value": 1612209653
+    },
+    {
+      "ent_field_name": "LocationEncrypted",
+      "label": "Location"
+    },
+    {
+      "ent_field_name": "CreationAppID",
+      "label": "App used at creation time"
+    },
+    {
+      "ent_field_name": "ShouldBlockTranslations",
+      "label": "Translation should be skipped"
+    },
+    {
+      "ent_field_name": "DetectedDialect",
+      "label": "Detected dialect",
+      "value": ""
+    },
+    {
+      "ent_field_name": "CreationTime",
+      "label": "Creation time",
+      "timestamp_value": 1567752600
+    },
+    {
+      "ent_field_name": "PlatformAppID",
+      "label": "Third-party app used at creation time"
+    },
+    {
+      "ent_field_name": "FileAttachments",
+      "label": "Files",
+      "media": [
+        
+      ]
+    },
+    {
+      "ent_field_name": "Photos",
+      "label": "Photos",
+      "media": [
+        {
+          "uri": "posts/media/Profilepictures_103340974385871/470590567660908.png",
+          "fbid_INTERNAL": 470590567660908,
+          "creation_timestamp": 1612208551,
+          "title": "Profile pictures"
+        },
+        {
+          "uri": "posts/media/Profilepictures_103340974385871/103340987719203.png",
+          "fbid_INTERNAL": 103340987719203,
+          "creation_timestamp": 1567752600,
+          "media_metadata": {
+            "photo_metadata": {
+              "exif_data": [
+                {
+                  "upload_ip": "188.95.247.247"
+                }
+              ]
+            }
+          },
+          "title": "Profile pictures"
+        }
+      ]
+    },
+    {
+      "ent_field_name": "Videos",
+      "label": "Videos",
+      "media": [
+        
+      ]
+    }
+  ],
+  "fbid": "103340974385871",
+  "ent_name": "EntPhotoAlbum"
+}
